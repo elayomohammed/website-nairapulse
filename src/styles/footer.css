@@ -1,0 +1,53 @@
+/* Footer styles for all desktop screens */
+
+@media only screen and (min-width: 1024px) {
+    #footer-container {
+        background-color: #00A695;
+        color: #FFFBFB;
+    }
+
+    /* Footer navigation styles */
+    #footer-container div p {
+        font-size: 18px;
+        text-align: left;
+        justify-self: left;
+        width: 40vw;
+        margin: auto auto 20px 0px;
+        padding-top: 20px;
+        color: #FFFBFB;
+    }
+    #footer-contact-container h3 {
+        font-size: larger;
+        font-weight: 900;
+        width: max-content;
+        border-bottom: solid 0.1px #FFFBFB;
+        margin-bottom: 10px;
+    }
+    #footer-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        padding-bottom: 20px;
+    }
+
+    #footer-nav h4 {
+        font-weight: 600;
+    }
+    #footer-nav h4:hover {
+        box-shadow: 0px 0.3px #FFFBFB;
+        transform: rotate(1deg);
+    }
+
+    #footer-contact-nav {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-bottom: 20px;
+    }
+
+    .footer-contact-nav-item {
+        display: flex;
+        gap: 3px;
+    }
+    
+}

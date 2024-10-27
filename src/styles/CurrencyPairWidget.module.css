@@ -1,0 +1,45 @@
+/* Currency pair section styles for all desktop screens */
+@media only screen and (min-width: 1024px) {
+    .widgetContainer {
+        padding: 10px;
+        display: flex;
+        border-bottom: solid #F5F5F5 1px;;
+    }
+        
+    .header {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 5px;
+    }
+        
+    .logo {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+        
+    .priceSection {
+        margin: 20px auto auto auto;
+        display: flex;
+        width: 40vw;
+    }
+    .price {
+        margin: auto;
+        text-align: left;
+        width: 10vw;
+        padding-left: 50px;
+    }
+    .change24h {
+        margin: auto;
+        text-align: left;
+        width: 10vw;
+    }
+        
+    .sparklineChart {
+        margin-top: 10px;
+        height: 50px;
+    }
+}
+  

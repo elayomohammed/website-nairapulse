@@ -1,0 +1,26 @@
+/* Hero section styles for all desktop screens */
+@media only screen and (min-width: 1024px) {
+    #hero-section {
+        height: 50vh;
+        background-image: url('../static_files/hero-icon1.png');
+        background-size: cover;
+        background-position: center;
+        background-color: #40E0D0;
+    }
+    #hero-section p {
+        font-size: 22px;
+        text-align: left;
+        justify-self: left;
+        width: 31.5vw;
+        padding-top: 20px;
+        color: #FFFBFB;
+        line-height: 40px;
+    }
+
+    #hero-section h1 {
+        margin: 50px auto 0px 10%;
+        font-size: x-large;
+        font-weight: 600;
+        color: #FFFBFB;
+    }
+}

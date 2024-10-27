@@ -1,0 +1,35 @@
+/* Currency pair section styles for all desktop screens */
+@media only screen and (min-width: 1024px) {
+    #currency-api-container {
+        margin: 80px auto 80px auto;
+        padding: 10px;
+    }
+
+    p {
+        font-size: 17px;
+        color: #494848;
+        margin-bottom: 25px;
+    }
+
+   #currency-api-header {
+        font-size: x-large;
+        font-weight: 600;
+        color: #00A695;
+        margin-bottom: 15px;
+    }
+
+    #check-api-plan-btn {
+        background-color: #00A695;
+        color: #FFFBFB;
+        padding: 5px 25px 5px 25px;
+        border-radius: 15px;
+        font-size: x-large;
+        display: flex;
+        margin: auto;
+        align-self: center;
+        justify-content: center;
+        justify-self: center;
+        height: 50px;
+        width: max-content;
+    }
+}

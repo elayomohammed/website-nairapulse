@@ -1,0 +1,45 @@
+/* Exchange rates section styles for all desktop screens */
+@media only screen and (min-width: 1024px){
+
+    #exchange-rates-container {
+        border: solid #F5F5F5 2px;
+        width: 80vw;
+        margin: auto;
+        background-color: #ffffff;
+        position: relative;
+        top: -80px;
+        padding-top: 15px;
+        padding-bottom: 25px;
+        box-shadow: 0px 2px #F5F5F5;
+    }
+
+    #more-rates-btn {
+        height: 50px;
+        width: max-content;
+        background-color: #00A695;
+        color: #FFFBFB;
+        padding: 5px 15px;
+        font-size: x-large;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        margin: 10px auto auto auto;
+        border-radius: 15px;
+        box-shadow: 1.5px 1px #bdbaba;
+    }
+    #more-rates-btn:hover {
+        transform: scale(1.02);
+        box-shadow: 1px 1px #000000;
+    }
+
+    #rates-tag-line {
+        margin: 10px auto auto auto;
+        font-size: 17px;
+        color: #494848;
+        width: 50vw;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+    }
+}
