@@ -15,7 +15,7 @@ const CurrencyTools: React.FC = () => {
                             Effortlessly convert currencies with our intuitive currency calculator. Stay up-to-date 
                             with real-time exchange rates and convert between a wide range of global currencies in just a few clicks.conversions
                         </p>
-                        <Link className="tool-item-btn" href="">Use Calculator</Link>
+                        <Link className="tool-item-btn" href="#currency-calculator-top-container">Use Calculator</Link>
                     </div>
                     <div className="tool-item">
                         <Image src={require("../static_files/icon-chart.png")} alt="" className="tool-item-icon" />
@@ -23,7 +23,7 @@ const CurrencyTools: React.FC = () => {
                             Create a chart for any currency pair in the world to see their currency history. These currency charts use live 
                             mid-market rates, are easy to use, and are very reliable.
                         </p>
-                        <Link className="tool-item-btn" href="">View Charts</Link>
+                        <Link className="tool-item-btn" href="/view_chart">View Charts</Link>
                     </div>
                     <div className="tool-item">
                         <Image src={require("../static_files/icon-alert.png")} alt="" className="tool-item-icon" />
@@ -31,7 +31,7 @@ const CurrencyTools: React.FC = () => {
                             Need to know when a currency hits a specific rate? The Naira pulse Rate Alerts will let you know 
                             when the rate you need is triggered on your selected currency pairs.
                         </p>
-                        <Link className="tool-item-btn" href="">Create Alerts</Link>
+                        <Link className="tool-item-btn" href="/alert">Create Alerts</Link>
                     </div>
                 </div>
             </div>

@@ -2,7 +2,9 @@ import React from "react";
 
 const Tools: React.FC = () => {
     return (
-        <>Tools</>
+        <div className="uniform-margin">
+            Tools Page
+        </div>
     )
 }
 

@@ -29,6 +29,7 @@
         border-radius: 15px;
         border: solid #F5F5F5 2px;
         height: 50px;
+        text-align: center;
     }
 
     #convert-amount:focus {

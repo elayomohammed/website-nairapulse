@@ -3,6 +3,10 @@
 @media only screen and (min-width: 1024px) {
     #header-container {
         background-color: #00A695;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        z-index: 10000;
     }
 
     #header-container div {

@@ -1,0 +1,7 @@
+/* All_rates section styles for all desktop screens */
+@media only screen and (min-width: 1024px) {
+    #all-rates-container {
+        margin: 85px auto auto auto;
+        box-shadow: 0px 2px #F5F5F5;
+    }
+}

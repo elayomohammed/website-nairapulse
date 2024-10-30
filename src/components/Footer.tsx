@@ -15,13 +15,13 @@ const Footer: React.FC = () => {
                     Conversions, and Timely News on Global Financial Movements. Stay Informed, Stay Ahead.
                 </p>
                 <nav id="footer-nav">
-                    <Link href="/tools"><h4 className="footer-nav-item">ABOUT US</h4></Link>
-                    <Link href=""><h4 className="footer-nav-item">TOOLS</h4></Link>
-                    <Link href=""><h4 className="footer-nav-item">NEWS</h4></Link>
-                    <Link href=""><h4 className="footer-nav-item">ANALYTICS</h4></Link>
-                    <Link href=""><h4 className="footer-nav-item">CURRENCY API</h4></Link>
-                    <Link href=""><h4 className="footer-nav-item">TERMS OF SERVICE</h4></Link>
-                    <Link href=""><h4 className="footer-nav-item">PRIVACY POLICY</h4></Link>
+                    <Link href="/tools"><h4 className="footer-nav-item">About Us</h4></Link>
+                    <Link href=""><h4 className="footer-nav-item">Tools</h4></Link>
+                    <Link href=""><h4 className="footer-nav-item">News</h4></Link>
+                    <Link href=""><h4 className="footer-nav-item">Analytics</h4></Link>
+                    <Link href=""><h4 className="footer-nav-item">Currency API</h4></Link>
+                    <Link href=""><h4 className="footer-nav-item">Terms of Service</h4></Link>
+                    <Link href=""><h4 className="footer-nav-item">Privacy Policy</h4></Link>
                 </nav>
 
                 <div id="footer-contact-container">

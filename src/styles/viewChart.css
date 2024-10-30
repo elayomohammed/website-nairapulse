@@ -1,0 +1,19 @@
+/* View chart styles for all desktop screens */
+
+@media only screen and (min-width: 1024px) {
+    #view-chart-container {
+        margin: 80px auto 80px auto;
+    }
+
+    #view-charts-container {
+        margin: 80px auto auto auto;
+    }
+
+    #chart-title {
+        margin: auto auto 5px 2px;
+    }
+
+    #view-chart-tagline {
+        margin: 100px auto 20px auto;
+    }
+}

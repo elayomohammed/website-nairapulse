@@ -7,7 +7,7 @@ const Header: React.FC = () => {
     return (
         <header id="header-container">
             <div className="uniform-margin">
-                <Link href="./" id="header-logo">
+                <Link href="/" id="header-logo">
                     <Image 
                         src={require("../static_files/logo-nairapulse.png")} alt="NAIRAPULSE"
                         width={200}
@@ -15,10 +15,10 @@ const Header: React.FC = () => {
                     />
                 </Link>
                 <nav id="header-nav">
-                    <Link href="/tools"><h3 className="header-nav-item">TOOLS</h3></Link>
-                    <Link href=""><h3 className="header-nav-item">NEWS</h3></Link>
-                    <Link href=""><h3 className="header-nav-item">ANALYTICS</h3></Link>
-                    <Link href=""><h3 className="header-nav-item">CURRENCY API</h3></Link>
+                    <Link href="/tools"><h3 className="header-nav-item">Tools</h3></Link>
+                    <Link href="/news"><h3 className="header-nav-item">News</h3></Link>
+                    <Link href="/analytics"><h3 className="header-nav-item">Analytics</h3></Link>
+                    <Link href="/currency_api"><h3 className="header-nav-item">Currency API</h3></Link>
                 </nav>
             </div>
         </header>

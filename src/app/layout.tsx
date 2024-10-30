@@ -1,4 +1,4 @@
-import { Roboto } from '@next/font/google';
+import { Roboto } from 'next/font/google';
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Footer from "@/components/Footer";
