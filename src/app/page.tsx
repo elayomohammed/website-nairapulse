@@ -1,3 +1,4 @@
+import React from 'react';
 import CurrencyApi from "@/components/CurrencyApi";
 import CurrencyCalculator from "@/components/CurrencyCalculator";
 import CurrencyTools from "@/components/CurrencyTools";

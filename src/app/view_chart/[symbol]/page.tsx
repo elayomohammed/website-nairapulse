@@ -1,3 +1,4 @@
+import React from 'react';
 import TradingViewChart from '../../../components/TradingViewChart';
 import "../../../styles/viewChart.css";
 

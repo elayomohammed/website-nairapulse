@@ -1,3 +1,4 @@
+import React from 'react';
 import { Roboto_Condensed } from 'next/font/google';
 import type { Metadata } from "next";
 import Footer from "@/components/Footer";

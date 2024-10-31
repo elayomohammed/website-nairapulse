@@ -2,6 +2,7 @@
   "extends": ["next/core-web-vitals", "next/typescript", "plugin:@typescript-eslint/recommended", "plugin:react/recommended"],
   "rules": {
     "@typescript-eslint/no-explicit-any": "off",
-    "react/no-unescaped-entities": "off"
+    "react/no-unescaped-entities": "off",
+    "react/prop-types": "off"
   }
 }

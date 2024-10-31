@@ -1,6 +1,7 @@
 'use client';
+import { win32 } from 'node:path/win32';
 // components/TradingViewChart.tsx
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 
 interface TradingViewChartProps {
   symbol: string;
@@ -30,9 +31,9 @@ const TradingViewChart: React.FC<TradingViewChartProps> = ({ symbol, width = "10
       if ((window as any).TradingView) {
         new (window as any).TradingView.widget({
           container_id: `tradingview_${symbol}`,
-          width,
-          height,
-          symbol,
+          width: width,
+          height: height,
+          symbol: symbol,
           interval: "D",
           timezone: "Etc/UTC",
           theme: "light",
