@@ -4,4 +4,11 @@
         margin: 85px auto auto auto;
         box-shadow: 0px 2px #F5F5F5;
     }
+
+    #all-rates-tagline {
+        width: 60vw;
+        display: flex;
+        margin: 95px auto auto 15px;
+        text-align: justify;
+    }
 }

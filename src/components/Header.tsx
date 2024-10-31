@@ -1,7 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-require("../styles/header.css");
+import nairapulseLogo from "../static_files/logo-nairapulse.png";
+import '../styles/header.css';
 
 const Header: React.FC = () => {
     return (
@@ -9,7 +10,7 @@ const Header: React.FC = () => {
             <div className="uniform-margin">
                 <Link href="/" id="header-logo">
                     <Image 
-                        src={require("../static_files/logo-nairapulse.png")} alt="NAIRAPULSE"
+                        src={nairapulseLogo} alt="NAIRAPULSE"
                         width={200}
                         height={100}
                     />

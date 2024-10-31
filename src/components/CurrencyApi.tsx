@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-require("../styles/currencyApi.css");
+import "../styles/currencyApi.css";
 
 const CurrencyApi: React.FC = () => {
     return (

@@ -1,7 +1,13 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-require('../styles/currencyProfile.css');
+import "../styles/currencyProfile.css";
+import ngnLogo from "../static_files/logo-ngn.png";
+import usdLogo from "../static_files/logo-usd.jpeg";
+import gbpLogo from "../static_files/logo-gbp.png";
+import eurLogo from "../static_files/logo-euro.png";
+import cnyLogo from "../static_files/logo-yuan.jpeg";
+import btcLogo from "../static_files/logo-btc.jpeg";
 
 const CurrencyProfile: React.FC = () => {
     return (
@@ -11,37 +17,37 @@ const CurrencyProfile: React.FC = () => {
                 <div id="currency-profile-items">
                     <div className="profile-link">
                         <Link href="" className="currency-profile-item">
-                            <Image src={require("../static_files/logo-ngn.png")} alt="" className="profile-item-img" />
+                            <Image src={ngnLogo} alt="" className="profile-item-img" height={35} width={40} />
                             <p className="profile-item-name">NGN - Nigerian Naira</p>
                         </Link>
                     </div>
                     <div className="profile-link">
                         <Link href="" className="currency-profile-item">
-                            <Image src={require("../static_files/logo-usd.jpeg")} alt="" className="profile-item-img" />
+                            <Image src={usdLogo} alt="" className="profile-item-img" height={35} width={40} />
                             <p className="profile-item-name">USD - US Dollar</p>
                         </Link>
                     </div>
                     <div className="profile-link">
                         <Link href="" className="currency-profile-item">
-                            <Image src={require("../static_files/logo-gbp.png")} alt="" className="profile-item-img" />
+                            <Image src={gbpLogo} alt="" className="profile-item-img" height={35} width={40} />
                             <p className="profile-item-name">GBP - Great British Pound</p>
                         </Link>
                     </div>
                     <div className="profile-link">
                         <Link href="" className="currency-profile-item">
-                            <Image src={require("../static_files/logo-euro.png")} alt="" className="profile-item-img" />
+                            <Image src={eurLogo} alt="" className="profile-item-img" height={35} width={40} />
                             <p className="profile-item-name">EUR - Euro</p>
                         </Link>
                     </div>
                     <div className="profile-link">
                         <Link href="" className="currency-profile-item">
-                            <Image src={require("../static_files/logo-yuan.jpeg")} alt="" className="profile-item-img" />
+                            <Image src={cnyLogo} alt="" className="profile-item-img" height={35} width={40} />
                             <p className="profile-item-name">CNY - Chinese Yen</p>
                         </Link>
                     </div>
                     <div className="profile-link">
                         <Link href="" className="currency-profile-item">
-                            <Image src={require("../static_files/logo-btc.jpeg")} alt="" className="profile-item-img" />
+                            <Image src={btcLogo} alt="" className="profile-item-img" height={35} width={40} />
                             <p className="profile-item-name">BTC - Bitcoin</p>
                         </Link>
                     </div>

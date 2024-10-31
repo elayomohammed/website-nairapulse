@@ -2,13 +2,13 @@
 
 // components/CurrencyPairWidget.tsx
 import React, { useEffect, useState } from 'react';
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import axios from 'axios';
 import styles from '../styles/CurrencyPairWidget.module.css';
 
 interface CurrencyPairProps {
   pair: string;  // E.g. 'USD/NGN', 'BTC/USD'
-  logoUrl: string; // URL of asset logo
+  logoUrl: string | StaticImageData; // URL of asset logo
   baseCurrency: string; // E.g. 'USD', 'BTC'
   quoteCurrency: string; // E.g. 'NGN', 'USD'
 }
@@ -53,7 +53,7 @@ const CurrencyPairWidget: React.FC<CurrencyPairProps> = ({ pair, logoUrl, baseCu
   return (
     <section className={styles.widgetContainer}>
         <div className={styles.header}>
-            <Image src={logoUrl} alt={`${pair} logo`} className={styles.logo} />
+            <Image src={logoUrl} alt={`${pair} logo`} className={styles.logo} width={30} height={30} />
             <h2>{pair}</h2>
         </div>
 

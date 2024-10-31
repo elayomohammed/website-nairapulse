@@ -3,7 +3,6 @@ import CurrencyCalculator from "@/components/CurrencyCalculator";
 import CurrencyTools from "@/components/CurrencyTools";
 import ExchangeRates from "@/components/ExchangeRates";
 import Hero from "@/components/Hero";
-import Image from "next/image";
 
 
 export default function Home() {

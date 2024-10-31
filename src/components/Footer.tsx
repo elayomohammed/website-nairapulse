@@ -2,7 +2,12 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import CurrencyProfile from './CurrencyProfile';
-require('../styles/footer.css');
+import emailIcon from "../static_files/icon-email.png";
+import igLogo from "../static_files/icon-ig.png";
+import phoneIcon from "../static_files/icon-phone.png";
+import xLogo from "../static_files/icon-x.png";
+import fbLogo from "../static_files/icon-fb.png";
+import '../styles/footer.css';
 
 const Footer: React.FC = () => {
     return (
@@ -28,23 +33,23 @@ const Footer: React.FC = () => {
                     <h3 id="footer-contact-heading">Contact Us</h3>
                     <nav id="footer-contact-nav">
                         <div className="footer-contact-nav-item">
-                            <Image height={22} width={22} src={require("../static_files/icon-email.png")} alt="icon-email" className="footer-contact-nav-item-url" />
+                            <Image height={22} width={22} src={emailIcon} alt="icon-email" className="footer-contact-nav-item-url" />
                             <Link href="mailto: pulsenaira@gmail.com" className="footer-contact-nav-item-url" target="_blank">email</Link>
                         </div>
                         <div className="footer-contact-nav-item">
-                            <Image height={22} width={22} src={require("../static_files/icon-ig.png")} alt="icon-ig" className="footer-contact-nav-item-url" />
+                            <Image height={22} width={22} src={igLogo} alt="icon-ig" className="footer-contact-nav-item-url" />
                             <Link href="https://instagram.com/nairapulse" className="footer-contact-nav-item-url" target="_blank">@nairapulse</Link>
                         </div>
                         <div className="footer-contact-nav-item">
-                            <Image height={22} width={22} src={require("../static_files/icon-phone.png")} alt="icon-phone" className="footer-contact-nav-item-url" />
+                            <Image height={22} width={22} src={phoneIcon} alt="icon-phone" className="footer-contact-nav-item-url" />
                             <Link href="" className="footer-contact-nav-item-url" target="_blank">phone</Link>
                         </div>
                         <div className="footer-contact-nav-item">
-                            <Image height={22} width={22} src={require("../static_files/icon-x.png")} alt="icon-x" className="footer-contact-nav-item-url" />
+                            <Image height={22} width={22} src={xLogo} alt="icon-x" className="footer-contact-nav-item-url" />
                             <Link href="" className="footer-contact-nav-item-url" target="_blank">@nairapulse</Link>
                         </div>
                         <div className="footer-contact-nav-item">
-                            <Image height={22} width={22} src={require("../static_files/icon-fb.png")} alt="icon-fb" className="footer-contact-nav-item-url" />
+                            <Image height={22} width={22} src={fbLogo} alt="icon-fb" className="footer-contact-nav-item-url" />
                             <Link href="" className="footer-contact-nav-item-url" target="_blank">@nairapulse</Link>
                         </div>
                         <div className="footer-contact-nav-item">

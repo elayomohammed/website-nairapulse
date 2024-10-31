@@ -4,7 +4,8 @@ import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Dinero from 'dinero.js';
 import axios from 'axios';
-require('../styles/currencyCalculator.css');
+import "../styles/currencyCalculator.css";
+import convertLogo from '../static_files/icon-convert.png'
 
 const API_KEY = process.env.CRYPTOCOMPARE_API_KEY; // CryptoCompare API key
 
@@ -72,7 +73,7 @@ const CurrencyCalculator = () => {
                 {/* Add more currencies as needed */}
               </select>
             </div>
-            <Image id="convert-icon" src={require("../static_files/icon-convert.png")} alt="" width={50} height={14} />
+            <Image id="convert-icon" src={convertLogo} alt="Convert Icon" height={14} width={50} />
             <div className="green-bg-w-tx">
               <h3>To</h3>
               <select value={toCurrency} onChange={(e) => setToCurrency(e.target.value)}>
@@ -105,7 +106,7 @@ const CurrencyCalculator = () => {
               )}
             </div>
           </div>
-          <button id="convert" onClick={handleConversion}>Convert</button>
+          <button id="convert" onClick={handleConversion}>Convert Now</button>
         </div>
         <small>This is for informational purposes only</small>
       </div>
