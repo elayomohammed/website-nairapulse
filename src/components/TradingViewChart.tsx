@@ -1,5 +1,4 @@
 'use client';
-import { win32 } from 'node:path/win32';
 // components/TradingViewChart.tsx
 import React, { useEffect } from 'react';
 
