@@ -13,7 +13,7 @@ const CurrencyApi: React.FC = () => {
                     of global currencies, our API is perfect for e-commerce platforms, financial tools, and international 
                     businesses. Simple to implement, scalable, and reliable for your users' currency needs."
                 </p>
-                <Link href='' id="check-api-plan-btn">Check Our Currency API Plans</Link>
+                <Link href="/currency_api" id="check-api-plan-btn">Check Our Currency API Plans</Link>
             </div>
         </div>
     )

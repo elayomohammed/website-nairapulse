@@ -1,6 +1,6 @@
 import TradingViewChart from "@/components/TradingViewChart";
 import React from "react";
-require("../../styles/viewChart.css");
+import "../../styles/viewChart.css";
 
 const ViewCharts: React.FC = () => {
     return (

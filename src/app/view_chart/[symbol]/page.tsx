@@ -1,6 +1,5 @@
-import { GetServerSideProps } from 'next';
 import TradingViewChart from '../../../components/TradingViewChart';
-require("../../../styles/viewChart.css");
+import "../../../styles/viewChart.css";
 
 interface CurrencyChartsProps {
   params: { symbol?: string };
