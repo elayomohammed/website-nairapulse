@@ -33,27 +33,23 @@ const Footer: React.FC = () => {
                     <h3 id="footer-contact-heading">Contact Us</h3>
                     <nav id="footer-contact-nav">
                         <div className="footer-contact-nav-item">
-                            <Image height={22} width={22} src={emailIcon} alt="icon-email" className="footer-contact-nav-item-url" />
+                            <Image height={22} width={22} src={emailIcon} alt="icon-email" className="footer-contact-nav-item-img" />
                             <Link href="mailto: pulsenaira@gmail.com" className="footer-contact-nav-item-url" target="_blank">email</Link>
                         </div>
                         <div className="footer-contact-nav-item">
-                            <Image height={22} width={22} src={igLogo} alt="icon-ig" className="footer-contact-nav-item-url" />
+                            <Image height={22} width={22} src={igLogo} alt="icon-ig" className="footer-contact-nav-item-img" />
                             <Link href="https://instagram.com/nairapulse" className="footer-contact-nav-item-url" target="_blank">@nairapulse</Link>
                         </div>
                         <div className="footer-contact-nav-item">
-                            <Image height={22} width={22} src={phoneIcon} alt="icon-phone" className="footer-contact-nav-item-url" />
+                            <Image height={22} width={22} src={phoneIcon} alt="icon-phone" className="footer-contact-nav-item-img" />
                             <Link href="" className="footer-contact-nav-item-url" target="_blank">phone</Link>
                         </div>
                         <div className="footer-contact-nav-item">
-                            <Image height={22} width={22} src={xLogo} alt="icon-x" className="footer-contact-nav-item-url" />
-                            <Link href="" className="footer-contact-nav-item-url" target="_blank">@nairapulse</Link>
+                            <Image height={22} width={22} src={xLogo} alt="icon-x" className="footer-contact-nav-item-img" />
+                            <Link href="https://x.com/nairapulse" className="footer-contact-nav-item-url" target="_blank">@nairapulse</Link>
                         </div>
                         <div className="footer-contact-nav-item">
-                            <Image height={22} width={22} src={fbLogo} alt="icon-fb" className="footer-contact-nav-item-url" />
-                            <Link href="" className="footer-contact-nav-item-url" target="_blank">@nairapulse</Link>
-                        </div>
-                        <div className="footer-contact-nav-item">
-                            <Image src="" alt="" className="footer-contact-nav-item-url" />
+                            <Image height={22} width={22} src={fbLogo} alt="icon-fb" className="footer-contact-nav-item-img" />
                             <Link href="" className="footer-contact-nav-item-url" target="_blank">@nairapulse</Link>
                         </div>
                     </nav>

@@ -20,12 +20,18 @@ body {
 }
 
 /* Global styles for desktop screens */
-@media only screen and (min-width: 1024px) {
-  .uniform-margin {
-    margin: auto 10% auto 10%;
-  }
+.uniform-margin {
+  margin: auto 10% auto 10%;
+}
 
-  .general-hr {
-    border: solid #00A695 1px;
+.general-hr {
+  border: solid #00A695 1px;
+}
+
+
+/* Global styles for mobile screens */
+@media only screen and (max-width: 767px) {
+  .uniform-margin {
+    margin: auto 5% auto 5%;
   }
 }

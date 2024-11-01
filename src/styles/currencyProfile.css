@@ -1,32 +1,30 @@
 /* Currency tools section styles for all desktop screens */
-@media only screen and (min-width: 1024px){
-    #currency-profile-container {
-        margin: 80px auto 80px auto;
-        padding: 10px;
-    }
+#currency-profile-container {
+    margin: 80px auto 80px auto;
+    padding: 10px;
+}
 
-    #currency-profile-header {
-        font-size: x-large;
-        font-weight: 600;
-        color: #00A695;
-        margin-bottom: 15px;
-    }
+#currency-profile-header {
+    font-size: x-large;
+    font-weight: 600;
+    color: #00A695;
+    margin-bottom: 15px;
+}
 
-    .profile-link {
-        width: max-content;
-    }
+.profile-link {
+    width: max-content;
+}
 
-    .currency-profile-item {
-        display: flex;
-        gap: 10px;
-    }
+.currency-profile-item {
+    display: flex;
+    gap: 10px;
+}
 
-    .profile-item-img {
-        width: 40px;
-        height: 35px;
-    }
+.profile-item-img {
+    width: 40px;
+    height: 35px;
+}
 
-    .profile-item-name {
-        margin-top: 5px;
-    }
+.profile-item-name {
+    margin-top: 5px;
 }

@@ -67,8 +67,8 @@ const CurrencyPairWidget: React.FC<CurrencyPairProps> = ({ pair, logoUrl, baseCu
         {/* TradingView Sparkline iframe */}
         <div className={styles.sparklineChart}>
             <iframe
+            className={styles.priceWidget}
             src={`https://s.tradingview.com/widgetembed/?symbol=${baseCurrency}${quoteCurrency}&interval=D&theme=light&style=2&hide_top_toolbar=true&hide_side_toolbar=true&hide_legend=true&withdateranges=false&hidevolume=true&autosize=true&studies=[]&show_popup_button=false&hideideas=true&saveimage=false&hide_crosshair=true&hide_symbol=true&locale=en&width=200&height=50`}
-            style={{ width: 'max-content', height: '50px', border: 'none' }}
             title={`${pair} sparkline chart`}
             ></iframe>
         </div>

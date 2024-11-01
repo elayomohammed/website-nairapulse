@@ -1,51 +1,61 @@
 /* Currency tools section styles for all desktop screens */
-@media only screen and (min-width: 1024px){
-    #currency-tools-container {
-        margin: 80px auto 80px auto;
-    }
+#currency-tools-container {
+    margin: 80px auto 80px auto;
+}
 
-    #currency-tools-header {
-        font-size: x-large;
-        font-weight: 600;
-        color: #00A695;
-        margin-left: 40px;
+#currency-tools-header {
+    font-size: x-large;
+    font-weight: 600;
+    color: #00A695;
+    margin-left: 40px;
+}
+
+#tools-container {
+    display: flex;
+}
+
+.tool-item {
+    margin: auto;
+    padding: 10px;
+    width: 23vw;
+    border: solid #F5F5F5 2px;
+}
+
+.tool-item p {
+    height: 135px;
+    font-size: 17px;
+    color: #494848;
+}
+
+.tool-item-btn {
+    background-color: #00A695;
+    color: #FFFBFB;
+    padding: 5px 25px 5px 25px;
+    border-radius: 15px;
+    font-size: x-large;
+    display: flex;
+    margin: auto;
+    align-self: center;
+    justify-content: center;
+    justify-self: center;
+    height: 50px;
+    width: max-content;
+}
+
+
+/* Currency tools section styles for all mini-desktop screens */
+@media only screen and (max-width: 767px) {
+    .tool-item {
+        margin: 10px auto auto auto;
+        width: 90vw;
+        padding: 20px;
     }
 
     #tools-container {
-        display: flex;
-    }
-
-    .tool-item {
-        margin: auto;
-        padding: 5px;
-        width: 23vw;
+        flex-direction: column;
     }
 
     .tool-item p {
-        height: 135px;
-        font-size: 17px;
-        color: #494848;
-    }
-
-    .tool-item-btn {
-        background-color: #00A695;
-        color: #FFFBFB;
-        padding: 5px 25px 5px 25px;
-        border-radius: 15px;
-        font-size: x-large;
-        display: flex;
-        margin: auto;
-        align-self: center;
-        justify-content: center;
-        justify-self: center;
-        height: 50px;
-        width: max-content;
-    }
-}
-
-/* Currency tools section styles for all mini-desktop screens */
-@media only screen and (max-width: 1024px) {
-    .tool-item p {
-        height: 175px;
+        height: max-content;
     }
 }

@@ -8,11 +8,12 @@ const Header: React.FC = () => {
     return (
         <header id="header-container">
             <div className="uniform-margin">
-                <Link href="/" id="header-logo">
+                <Link href="/">
                     <Image 
+                        id="header-logo"
                         src={nairapulseLogo} alt="NAIRAPULSE"
                         width={200}
-                        height={100}
+                        height={80}
                     />
                 </Link>
                 <nav id="header-nav">

@@ -1,101 +1,149 @@
-@media only screen and (min-width: 1024px) {
-    #currency-calculator-top-container {
-        margin: 80px auto 80px auto;
-    }
+#currency-calculator-top-container {
+    margin: 80px auto 80px auto;
+}
+#currency-calculator-container {
+    border: solid #F5F5F5 2px;
+    width: 80vw;
+    padding: 25px 10px 75px 10px;
+    box-shadow: 0px 2px #F5F5F5;
+}
+#currency-calculator {
+    display: flex;
+    align-items: stretch;
+    justify-items: stretch;
+    justify-content: space-between;
+    margin: auto;
+    padding: 25px;
+}
+
+#title {
+    font-size: x-large;
+    font-weight: 600;
+    color: #00A695;
+}
+
+#convert-amount {
+    width: 170px;
+    padding: 5px 25px 5px 25px;
+    border-radius: 15px;
+    border: solid #F5F5F5 2px;
+    height: 50px;
+    text-align: center;
+}
+
+#convert-amount:focus {
+    outline: none;
+    border: solid #F5F5F5 2px;
+    box-shadow: 0px 2px #F5F5F5;
+}
+
+.green-bg-w-tx {
+    background-color: #00A695;
+    color: #FFFFFF;
+    width: 170px;
+    padding: 5px 25px 5px 25px;
+    border-radius: 15px;
+    height: 50px;
+}
+
+select {
+    margin-left: -4px;
+    background-color: #00A695;
+    cursor: pointer;
+}
+
+select:focus {
+    outline: none;
+}
+
+#converted-to {
+    width: max-content;
+    padding: 5px 25px 5px 25px;
+    border-radius: 15px;
+    border: solid #F5F5F5 2px;
+    height: 50px;
+}
+
+#converter-tagline {
+    margin: 0px 15px 15px 15px;
+    font-size: 17px;
+    color: #494848;
+    width: 60vw;
+    display: flex;
+    text-align: left;
+}
+
+#convert {
+    margin-right: 25px;
+    float: right;
+    width: max-content;
+    background-color: #00A695;
+    color: #FFFBFB;
+    padding: 5px 25px 5px 25px;
+    border-radius: 15px;
+    height: 50px;
+    font-size: x-large;
+}
+
+small {
+    margin-left: 15px;
+}
+
+/* Currency calculator section styles for all mini-desktop screens */
+@media only screen and (max-width: 767px) {
     #currency-calculator-container {
-        border: solid #F5F5F5 2px;
-        width: 80vw;
+        width: 90vw;
         padding: 25px 10px 75px 10px;
-        box-shadow: 0px 2px #F5F5F5;
     }
-    #currency-calculator {
+
+    #converter-tagline {
+        margin: 0px auto 15px auto;
+        font-size: 16px;
+        width: 90vw;
         display: flex;
-        align-items: stretch;
-        justify-items: stretch;
-        justify-content: space-between;
+    }
+
+    #currency-calculator {
+        flex-direction: column;
         margin: auto;
         padding: 25px;
     }
 
-    #title {
-        font-size: x-large;
-        font-weight: 600;
-        color: #00A695;
+    .green-bg-w-tx {
+        width: 250px;
+        padding: 5px 25px 5px 25px;
+        display: flex;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
     }
 
     #convert-amount {
-        width: 170px;
-        padding: 5px 25px 5px 25px;
-        border-radius: 15px;
-        border: solid #F5F5F5 2px;
-        height: 50px;
-        text-align: center;
-    }
-
-    #convert-amount:focus {
-        outline: none;
-        border: solid #F5F5F5 2px;
-        box-shadow: 0px 2px #F5F5F5;
-    }
-
-    .green-bg-w-tx {
-        background-color: #00A695;
-        color: #FFFFFF;
-        width: 170px;
-        padding: 5px 25px 5px 25px;
-        border-radius: 15px;
-        height: 50px;
-    }
-
-    select {
-        margin-left: -4px;
-        background-color: #00A695;
-        cursor: pointer;
-    }
-
-    select:focus {
-        outline: none;
-    }
-
-    #converted-to {
-        width: max-content;
-        padding: 5px 25px 5px 25px;
-        border-radius: 15px;
-        border: solid #F5F5F5 2px;
-        height: 50px;
-    }
-
-    #converter-tagline {
-        margin: 0px 15px 15px 15px;
-        font-size: 17px;
-        color: #494848;
-        width: 60vw;
+        width: 250px;
         display: flex;
-        text-align: left;
+        margin: 15px auto 5px auto;
     }
 
-    #convert {
-        margin-right: 25px;
-        float: right;
-        width: max-content;
-        background-color: #00A695;
-        color: #FFFBFB;
-        padding: 5px 25px 5px 25px;
-        border-radius: 15px;
-        height: 50px;
-        font-size: x-large;
-    }
-
-    small {
-        margin-left: 15px;
-    }
-}
-
-/* Currency calculator section styles for all mini-desktop screens */
-@media only screen and (max-width: 1024px) {
     #convert-icon {
         width: 40px;
         height: 40px;
-        margin-top: 5px;
+        margin: 10px auto 10px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #converted-to {
+        display: flex;
+        margin: auto;
+        width: 250px;
+        text-align: center;
+    }
+
+    #convert {
+        font-size: large;
+        display: flex;
+        margin: auto;
+        float: none;
     }
 }

@@ -63,7 +63,7 @@ const CurrencyCalculator = () => {
           <h2 id="title">Currency Converter</h2>
           <div id="currency-calculator">
             <div className="green-bg-w-tx">
-              <h3>From</h3>
+              <h3>From - </h3>
               <select value={fromCurrency} onChange={(e) => setFromCurrency(e.target.value)}>
                 <option value="NGN">Naira (NGN)</option>
                 <option value="BTC">Bitcoin (BTC)</option>
@@ -76,7 +76,7 @@ const CurrencyCalculator = () => {
             </div>
             <Image id="convert-icon" src={convertLogo} alt="Convert Icon" height={14} width={50} />
             <div className="green-bg-w-tx">
-              <h3>To</h3>
+              <h3>To - </h3>
               <select value={toCurrency} onChange={(e) => setToCurrency(e.target.value)}>
                 <option value="NGN">Naira (NGN)</option>
                 <option value="BTC">Bitcoin (BTC)</option>
@@ -88,18 +88,14 @@ const CurrencyCalculator = () => {
               </select>
             </div>
             <div>
-                <label>
-                  {`Amount: `}
-                  <input
-                    id="convert-amount"
-                    type="number"
-                    placeholder="enter an amount"
-                    onChange={(e) => setAmount(Number(e.target.value))}
-                  />
-                </label>
+              <input
+                id="convert-amount"
+                type="number"
+                placeholder="enter an amount"
+                onChange={(e) => setAmount(Number(e.target.value))}
+              />
             </div>
             <div id="converted-to">
-              <h3>Converted Amount</h3>
               {convertedAmount !== null && (
               <p>
                 {amount} {fromCurrency} = {convertedAmount} {toCurrency}
