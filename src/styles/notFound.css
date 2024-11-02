@@ -1,0 +1,20 @@
+/* Not found page styles for all desktop screens */
+#error-page-container {
+    margin: 25% auto auto auto;
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    font-size: large;
+}
+
+
+/* Hero section styles for all mobile screens */
+@media only screen and (max-width: 767px) {
+    #error-page-container {
+        margin: 50% auto auto auto;
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        font-size: large;
+    }
+}
