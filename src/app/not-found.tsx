@@ -5,7 +5,7 @@ import '../styles/notFound.css';
 
 const NotFound: React.FC = async() => {
     const router = useRouter();
-    let [time, setTime] = useState(5)
+    // const [time, setTime] = useState(5)
 
     useEffect(() => {
         setTimeout(() => {
