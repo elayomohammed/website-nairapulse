@@ -5,7 +5,6 @@ import CurrencyTools from "@/components/CurrencyTools";
 import ExchangeRates from "@/components/ExchangeRates";
 import Hero from "@/components/Hero";
 
-
 export default function Home() {
   return (
     <main>

@@ -11,7 +11,7 @@
 
 #header-container div {
     display: flex;
-    height: 100%;
+    width: 80%;
 }
 
 #header-logo {
@@ -32,23 +32,63 @@
     transform: rotate(-1deg);
 }
 
+#mobile-nav-and-menu-btns {
+    display: none !important;
+}
+
 
 /* Hero section styles for all mobile screens */
 @media only screen and (max-width: 767px) {
     #header-container {
         height: 60px;
+        width: 100%;
+
     }
 
     #header-logo {
-        margin: -30px auto auto -28px;
-        transform: scale(0.7);
+        margin: 0px auto auto -10px !important;
+        transform: scale(0.85);
     }
 
     #header-container div {
-        display: inline;
+        width: 90%;
     }
 
     #header-nav {
         display: none;
+    }
+
+    #mobile-nav-and-menu-btns {
+        display: block !important;
+    }
+
+    #menu-btns-container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 83%;
+    }
+
+    .menu-btns {
+        transform: scale(0.8);
+        margin: 5px 0px 0px 0px;
+        cursor: pointer;
+    }
+
+    #menu-close-btn {
+        display: none;
+    }
+
+    #mobile-header-nav {
+        background-color: #00A695;
+        color: #FFFBFB;
+        display: flex;
+        flex-direction: column;
+        padding: 5px 30px 10px 30px;
+        margin-left: 10%;
+    }
+
+    .mobile-header-nav-item {
+        padding: 10px;
+        border-top: solid #FFFBFB 1px;
     }
 }

@@ -13,6 +13,7 @@ const roboto_condensed = Roboto_Condensed({
 export const metadata: Metadata = {
   title: "Naira Pulse",
   description: "Live Naira exchange rates",
+  icons: '/favicon.png',
 };
 
 export default function RootLayout({

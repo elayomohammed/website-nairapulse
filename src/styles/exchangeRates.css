@@ -31,7 +31,7 @@
 }
 
 #rates-tag-line {
-    margin: 10px auto auto auto;
+    margin: auto;
     font-size: 17px;
     color: #494848;
     width: 50vw;
@@ -48,12 +48,14 @@
         width: 90vw;
         background-color: #ffffff;
         padding-top: 5px;
+        padding-left: 15px;
     }
 
     #rates-tag-line {
-        margin: 10px auto auto auto;
         font-size: 16px;
-        width: 90vw;
+        width: 85vw;
+        margin-left: -8px;
+        padding-top: 10px;
     }
 }
 
