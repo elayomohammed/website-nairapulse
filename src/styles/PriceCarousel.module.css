@@ -1,0 +1,13 @@
+/* components/PriceCarousel.module.css */
+.carouselContainer {
+    width: 100%;
+    /* Adjust as needed */
+    margin: 0 auto;
+    /* Smaller height than width for a horizontal carousel */
+    height: 150px;
+    overflow: hidden;
+}
+
+.slide {
+    padding: 2px;
+}

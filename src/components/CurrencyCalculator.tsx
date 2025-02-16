@@ -104,8 +104,8 @@ const CurrencyCalculator = () => {
             </div>
           </div>
           <button id="convert" onClick={handleConversion}>Convert Now</button>
+          <small id="calculator-disclaimer">This is for informational purposes only</small>
         </div>
-        <small>This is for informational purposes only</small>
       </div>
     </div>
   );

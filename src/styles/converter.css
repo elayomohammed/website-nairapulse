@@ -1,0 +1,16 @@
+/* Converter styles for all desktop screens */
+#converter-container {
+    margin: 100px auto auto auto;
+}
+
+#conversion-history-container {
+    padding-left: 10px;
+}
+
+#conversion-history-title {
+    font-size: x-large;
+}
+
+#conversion-history-tagline {
+    font-size: 18px;
+}

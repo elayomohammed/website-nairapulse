@@ -1,0 +1,21 @@
+/* components/PriceCard.module.css */
+.priceCard {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    margin: 5px;
+    height: max-content;
+}
+
+.symbol {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+.price {
+    font-size: 18px;
+    color: #333;
+}

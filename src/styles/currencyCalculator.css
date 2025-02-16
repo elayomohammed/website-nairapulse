@@ -87,6 +87,8 @@ select:focus {
 
 small {
     margin-left: 15px;
+    position: relative;
+    top: 75px;
 }
 
 /* Currency calculator section styles for all mini-desktop screens */

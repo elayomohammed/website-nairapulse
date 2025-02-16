@@ -1,0 +1,39 @@
+/* tools index page styles for all desktop screens */
+.tools-tagline {
+    margin-left: 30px;
+    font-size: 18.5px;
+    color: #494848;
+    margin-bottom: -50px;
+}
+
+#tools-currency-calculator {
+    display: none;
+}
+
+.converter-tagline {
+    font-size: 17px;
+    display: flex;
+    width: 50vw;
+    margin-left: 15px;
+    color: #494848;
+}
+
+#conversion-history-header {
+    margin-left: 15px;
+    font-size: x-large;
+    font-weight: 800;
+    color: #00A695;
+}
+
+/* tools index page styles for all mini-desktop screens */
+@media only screen and (max-width: 767px) {
+    .tools-tagline {
+        margin-left: 2px;
+        font-size: 18px;
+    }
+
+    .converter-tagline {
+        font-size: 16.5px;
+        width: 80vw;
+    }
+}

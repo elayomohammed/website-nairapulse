@@ -7,12 +7,12 @@ import "./globals.css";
 
 const roboto_condensed = Roboto_Condensed({
   subsets: ['latin'],
-  weight: ['300','400', '500',],
+  weight: ['300', '400', '500',],
 });
 
 export const metadata: Metadata = {
-  title: "Naira Pulse",
-  description: "Live Naira exchange rates",
+  title: "Naira Pulse | Real-Time Naira Exchange Rates in Abuja, Lagos, Kano, Porthacourt",
+  description: "Naira Pulse offers live Naira exchange rates, detailed currency charts, and an instant currency converter for Nigeria. Stay informed with real-time market analytics and insights in Abuja, Lagos, Kano, Porthacour, and beyond",
   icons: '/favicon.png',
 };
 
