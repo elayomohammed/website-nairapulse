@@ -18,12 +18,13 @@ const ExchangeRates: React.FC = () => {
                 <Link href="/view_chart/CNYNGN"><CurrencyPairWidget pair="CNY/NGN" logoUrl={cnyLogo} baseCurrency="CNY" quoteCurrency="NGN" /></Link>
                 <Link href="/view_chart/BTCNGN"><CurrencyPairWidget pair="BTC/NGN" logoUrl={btcLogo} baseCurrency="BTC" quoteCurrency="NGN" /></Link>
                 <Link href="/view_chart/BTCUSD"><CurrencyPairWidget pair="BTC/USD" logoUrl={btcLogo} baseCurrency="BTC" quoteCurrency="USD" /></Link>
-                <Link href="./all_rates" id="more-rates-btn">Explore More Rates</Link>
+                <br />
                 <p id="rates-tag-line">
                     Dive Deeper into Global Exchange Markets – See Detailed Rates, Historical Data, and Track Market Trends Across Currencies Worldwide
                 </p>
+                <Link href="./all_rates" id="more-rates-btn">Explore More Rates</Link>
             </div>
-            
+
         </div>
     )
 }
